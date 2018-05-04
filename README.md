@@ -5,6 +5,7 @@ Final Project for CS 4330
 ## Contributors:
 * Randall Young
 * Han Song
+* Yi Zhu
 #### Directions
 OO Language Comparison Pick two object-oriented languages. Form a team to work on the comparison. You can be a team of 1. 
 Teams greater than 4 are usually not a good idea.
