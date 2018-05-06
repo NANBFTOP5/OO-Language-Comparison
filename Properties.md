@@ -72,6 +72,60 @@ class property(object)
 
 ### Getters and setters…write your own or built in?
 
-### Backing variables?
+* The accessor of a property contains the executable statements that helps in getting (reading or computing) or setting (writing) the property. The accessor declarations can contain a get accessor, a set accessor, or both. For example −
 
+```c#
+// Declare a Code property of type string:
+public string Code {
+   get {
+      return code;
+   }
+   set {
+      code = value;
+   }
+}
+
+// Declare a Name property of type string:
+public string Name {
+   get {
+      return name;
+   }
+   set {
+      name = value;
+   }
+}
+
+// Declare a Age property of type int:
+public int Age { 
+   get {
+      return age;
+   }
+   set {
+      age = value;
+   }
+}
+```
+
+### Backing variables?
+* C# supports backing fields, which privately store data behind public methods, properties, and indexers.
 ### Computed properties?
+
+```c#
+// Age in dog years
+public float AgeInDogYears
+{
+    get
+    {
+        float dogYearAge;
+ 
+        if (age < 1)
+            dogYearAge = 0;
+        else if (age == 1)
+            dogYearAge = 10.5f;
+        else
+            dogYearAge = 21 + ((age - 2) * 4);
+ 
+        return dogYearAge;
+    }
+}
+```
