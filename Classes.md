@@ -5,18 +5,18 @@ Defining and managing classes in python is very straightforward.
 
 ```python
 	class ClassName:
-		def __init__(self, a, b):	#initializer (fig 1)
+		def __init__(self, a, b):	#initializer	(fig 1)
 			self.a = a
 			self.b = b
 
-		def getA(self):				#method		(fig 2)
+		def getA(self):			#method		(fig 2)
 			return a
 	a = 4
 	b = 5
-	example = ClassName(a,b)	#constructing 	(fig 3)
-	print(example.getA) 		#prints 4		(fig 4)
+	example = ClassName(a,b)		#constructing 	(fig 3)
+	print(example.getA) 			#prints 4	(fig 4)
 
-	del example			#destructing			(fig 5)
+	del example				#destructing	(fig 5)
 ```
 In Python you can decalare 'special' functions by using a double underscore '__'. Special functions are used for a variety of things beyond what normal methods could handle, such as initializers/contructors and de-initializers/destructors.
 ### C#:
