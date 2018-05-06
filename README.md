@@ -32,7 +32,7 @@ The URL for the GitHub repository for your team is to be submitted via an assign
 * Creating new instances 
 * Constructing/initializing 
 * Destructing/de-initializing 
-#### [Instance reference name in data type (class)]
+#### [Instance reference name in data type (class)](InstRef.md)
 * this? self? 
 #### [Properties](Properties.md)
 * Getters and setters…write your own or built in? 
