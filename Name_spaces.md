@@ -6,7 +6,7 @@
 
     A namespace is a mapping from names to objects. Most namespaces are currently implemented as Python dictionaries, but that’s normally not noticeable in any way (except for performance), and it may change in the future. Examples of namespaces are: the set of built-in names (containing functions such as abs(), and built-in exception names); the global names in a module; and the local names in a function invocation. In a sense the set of attributes of an object also form a namespace.
 
-    ```
+    ```python
     >>> import math
     >>> dir(math)
     ['__doc__', '__file__', '__name__', '__package__', 'acos', 'acosh', 'asin',
@@ -46,13 +46,13 @@
 
     declaring your own namespaces can help you control the scope of class and method names in larger programming projects
 
-    ```
+    ```c#
     using System;
     ```
 
     the 'using keyword' allows acess to system and all of its deravitives such as 'Console' so the programmer doesnt have to delcare System.Console every time he wishes to use a method found in System.Console. The '.' is used to delimit namespaces.
 
-    ```
+    ```c#
     namespace SampleNamespace
     {
         class SampleClass
