@@ -7,19 +7,24 @@
 
 ## Python
 
-    1. Boolean
-        ```python
+1. Boolean
+
+     ```python
         bool A = true
-        ```
-    2. Sequencces
-        * string
+
+    ```
+2. Sequencces
+
+     * string
         
-    3. Numeric Types
-        * int
-        * double
-        * float
-        * long
-        * complex
+3. Numeric Types
+
+     * int
+    * double
+    * float
+    * long
+    * complex
+
         ```python
 
         counter = 100          # An integer assignment
@@ -29,11 +34,13 @@
         aCom    = 34+3J        # A Complex
 
         ```
-    4. Mapping
-        * dict
-    5. Sets
-        * set
-        * frozen set
+4. Mapping
+
+     * dict
+5. Sets
+
+    * set
+    * frozen set
     
 
 ## Are both reference and value types supported?
