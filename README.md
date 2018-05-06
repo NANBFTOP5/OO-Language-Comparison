@@ -20,7 +20,7 @@ The URL for the GitHub repository for your team is to be submitted via an assign
 * Is the language a reaction to a previous language or a replacement for another language? 
 #### [Unique features of the language](Features.md)
 * Does the language have any particularly unique features? 
-#### [Name spaces]
+#### [Name spaces](NameSpaces.md)
 * How are name spaces implemented? 
 * How are name spaces used? 
 #### [Types](Types.md)
