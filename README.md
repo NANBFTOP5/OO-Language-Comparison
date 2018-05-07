@@ -14,7 +14,7 @@ Other mark down pages can be linked using relative links in markdown files.
 Relative links in markdown files (Links to an external site.)Links to an external site.. 
 The README.md is to include near the top: The two languages being compared. The names of the members of the team. 
 The URL for the GitHub repository for your team is to be submitted via an assignment on Canvas. 
-#### [Comparison Criteria Language purpose/genesis](LangGenesis.md)
+#### [Comparison Criteria Language purpose/genesis](LangPurpose.md)
 * Why was the language created? 
 * What problems was the language trying to address? 
 * Is the language a reaction to a previous language or a replacement for another language? 
