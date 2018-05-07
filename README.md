@@ -56,7 +56,7 @@ The URL for the GitHub repository for your team is to be submitted via an assign
 #### [Null/nil references](NullRef.md)
 * Which does the language use? (null/nil/etc) 
 * Does the language have features for handling null/nil references? 
-#### [Errors and exception handling](ExctionHandling.md) 
+#### [Errors and exception handling](Exceptions.md) 
 #### [Lambda expressions, closures, or functions as types](Lambdas.md)
 #### [Implementation of listeners and event handlers](ListEH.md)
 #### [Singleton](Singleton.md)
